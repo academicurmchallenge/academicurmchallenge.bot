@@ -1,0 +1,1 @@
+# academicurmchallenge.bot
