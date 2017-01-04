@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/academicurmchallenge/academicurmchallenge.bot/issues"
   },
-  "homepage": "https://github.com/academicurmchallenge/academicurmchallenge.bot#readme"
+  "homepage": "https://github.com/academicurmchallenge/academicurmchallenge.bot#readme",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015-node": "^6.1.1",
+    "express": "^4.14.0"
+  }
 }
